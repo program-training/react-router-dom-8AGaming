@@ -1,1 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+#task {
+  width: 300px;
+  box-shadow: 2px 2px 10px black;
+  background-color: rgb(7, 56, 129);
+  border-radius: 8px;
+  color: rgb(147, 205, 255);
+  margin: 10px;
+  transition: 0.3s;
+}
+
+#task:hover {
+  transform: scale(1.1) rotate(-10deg);
+  background-color: rgb(66, 186, 246);
+  color: aliceblue;
+}
